@@ -1,11 +1,27 @@
-<div align="center">
+# Rockwool Wall Systems Quote Generator
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+An interactive Technical Quotation & Estimation Engine for ROCKWOOL External Wall Insulation (EWI) and façade systems.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Area & Wastage Calculation**: Dynamically scales system material requirements based on gross wall area ($m^2$) and wastage allowance.
+- **Dynamic Catalog Sync**: Synchronizes products, SKUs, and prices directly with Google Sheets.
+- **Client Directory**: Autocompletes customer information from the connected Google Sheets customer directory.
+- **Commercial Summary**: Calculates system $£/m^2$ rates, material subtotals, ancillary lines, and project investments.
+- **PDF Quotation Export**: Generates client-ready branded quotation documents with comprehensive system schedules and technical terms.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Development
 
-</div>
+```bash
+# Install dependencies
+npm install
+
+# Start the local development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Type check
+npm run lint
+```
